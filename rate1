@@ -762,7 +762,7 @@
 
         // コピー機能
         copyBtn.addEventListener('click', () => {
-            const text = `今日の配信はお休みします\n\n${currentReason}配信はお休みします🙇‍♂️`;
+            const text = `こんにちはれとわんです\n\n${currentReason}配信はお休みします🙇‍♂️`;
             navigator.clipboard.writeText(text).then(() => {
                 copyBtnText.textContent = 'コピーしました！';
                 setTimeout(() => {
